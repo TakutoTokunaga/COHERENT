@@ -29,7 +29,7 @@ conda create -n coherent python==3.10
 ```
 Install dependencies:
 ```bash
-pip install -r requirments.txt
+pip install -r requirement.txt
 ```
 ## Run
 Add your openai api_key and organization in `args.py` or `arguments.py`.
