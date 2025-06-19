@@ -1,0 +1,54 @@
+13c13
+<        <mass value="10.0"/>
+---
+>        <mass value="0.1"/>
+18,23c18,32
+<     <geometry>
+<      <mesh filename="door/055_frame.obj"  scale="0.01 0.01 0.01" />
+<     </geometry>
+<     <material name="brown">
+<         <color rgba="0.545 0.270 0.074 1"/>
+<     </material>
+---
+>         <geometry>
+>           <mesh filename="door/055_frame.obj"  scale="0.01 0.01 0.01" />
+>         </geometry>
+>         <material name="brown">
+>           <color rgba="0.545 0.270 0.074 1"/>
+>         </material>
+>     </visual>
+>     <visual>
+>         <origin xyz='0 0.1 2' rpy='0 0 0'/>
+>         <geometry>
+>           <box size="1 0.04 0.05" />
+>         </geometry>
+>         <material name="brown">
+>           <color rgba="0.545 0.270 0.074 1"/>
+>         </material>
+27,32c36,50
+<     <geometry>
+<      <mesh filename="door/055_frame_vhacd.obj"  scale="0.01 0.01 0.01" />
+<     </geometry>
+<     <material name="brown">
+<         <color rgba="0.545 0.270 0.074 1"/>
+<     </material>
+---
+>         <geometry>
+>           <mesh filename="door/055_frame_vhacd.obj"  scale="0.01 0.01 0.01" />
+>         </geometry>
+>         <material name="brown">
+>           <color rgba="0.545 0.270 0.074 1"/>
+>         </material>
+>     </collision>
+>     <collision>
+>         <origin xyz='0 0.1 2' rpy='0 0 0'/>
+>         <geometry>
+>           <box size="1 0.04 0.05" />
+>         </geometry>
+>         <material name="brown">
+>           <color rgba="0.545 0.270 0.074 1"/>
+>         </material>
+39c57
+<       <mass value="40.0"/>
+---
+>       <mass value="0.1"/>

@@ -33,7 +33,9 @@ ISAAC_PYTHON_VERSION=$(${ISAAC_SIM_PATH}/python.sh -c "import platform; print(pl
 echo Using Python version [4m$ISAAC_PYTHON_VERSION[0m matching your current Isaac Sim version
 
 # Create a conda environment with the appropriate python version
-source $(conda info --base)/etc/profile.d/conda.sh
+# source $(conda info --base)/etc/profile.d/conda.sh
+source /root/miniconda3/etc/profile.d/conda.sh
+
 conda create -y -n $conda_name python=${ISAAC_PYTHON_VERSION}
 
 # Now activate the omnigibson environment

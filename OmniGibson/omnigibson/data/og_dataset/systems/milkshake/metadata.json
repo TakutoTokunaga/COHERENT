@@ -1,0 +1,1 @@
+{"type": "fluid", "particle_contact_offset": 0.012, "particle_density": 1200.0, "is_viscous": true, "material_mtl_name": "WholeMilk", "customize_material_kwargs": {"diffuse_reflection_color": [0.84, 0.74, 0.64], "enable_diffuse_transmission": false}}

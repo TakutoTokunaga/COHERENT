@@ -1,0 +1,1 @@
+{"type": "fluid", "particle_contact_offset": 0.015, "particle_density": 1208.0, "is_viscous": true, "material_mtl_name": "Jade", "customize_material_kwargs": {"specular_transmission_weight": 0.0, "specular_transmission_color": [0.33, 0.13, 0.03], "diffuse_reflection_color": [0.33, 0.13, 0.03]}}

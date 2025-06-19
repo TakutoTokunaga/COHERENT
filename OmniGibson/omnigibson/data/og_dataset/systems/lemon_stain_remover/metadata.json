@@ -1,0 +1,1 @@
+{"type": "fluid", "particle_contact_offset": 0.012, "particle_density": 1000.0, "is_viscous": false, "material_mtl_name": "ClearWater", "customize_material_kwargs": {}}

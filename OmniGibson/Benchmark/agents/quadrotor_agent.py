@@ -1,9 +1,13 @@
 import sys
-sys.path.append("/home/pjlab/.local/share/ov/pkg/isaac_sim-2022.2.0/exts/omni.isaac.quadrotor")
+sys.path.append("~/.local/share/ov/pkg/isaac_sim-2022.2.0/exts/omni.isaac.quadrotor")
 
 
 import numpy as np
 import os
+
+quadrotor_utils_path = os.path.expanduser("~/.local/share/ov/pkg/isaac_sim-2022.2.0/exts/omni.isaac.quadrotor")
+sys.path.append(quadrotor_utils_path)
+
 from omni.isaac.quadrotor.crazyflie import Crazyflie
 from omni.isaac.core.objects import DynamicCuboid, FixedCuboid
 from omni.isaac.core.utils.stage import open_stage, add_reference_to_stage

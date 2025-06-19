@@ -1,0 +1,24 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl AM109_055_hrom
+Ns 9.803922
+Ka 0.145100 0.145100 0.145100
+Kd 0.156900 0.145100 0.133300
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+
+newmtl AM109_055_wood
+Ns 9.803922
+Ka 0.588000 0.588000 0.588000
+Kd 0.588000 0.588000 0.588000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd /home/fei/Development/gibson/gibsonv2/gibson2/assets/models/scene_components/door/AM109_055_Front_door_wood_color.jpg
+map_Ka /home/fei/Development/gibson/gibsonv2/gibson2/assets/models/scene_components/door/AM109_055_Front_door_wood_color.jpg

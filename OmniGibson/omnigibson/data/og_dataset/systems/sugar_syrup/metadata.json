@@ -1,0 +1,1 @@
+{"type": "fluid", "particle_contact_offset": 0.012, "particle_density": 1420.0, "is_viscous": true, "material_mtl_name": "DeepWater", "customize_material_kwargs": {"specular_transmission_weight": 0.7, "specular_transmission_scattering_depth": 0.0, "specular_transmission_color": [1.0, 0.98, 0.92], "specular_transmission_scattering_color": [0.57, 0.57, 0.57]}}

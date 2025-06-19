@@ -16,8 +16,15 @@ from omni.isaac.sensor import _sensor
 from omni.isaac.core.utils.stage import get_current_stage, get_stage_units
 from omni.isaac.quadruped.quadruped import Quadruped
 
+import sys
+import os
+
+quadruped_utils_path = os.path.expanduser("~/.local/share/ov/pkg/isaac_sim-2022.2.0/exts/omni.isaac.quadruped/omni/isaac/quadruped/utils")
+sys.path.append(quadruped_utils_path)
+# sys.path.append("~/.local/share/ov/pkg/isaac_sim-2022.2.0/exts/omni.isaac.quadruped/")
+from a1arm_classes import A1ArmState, A1ArmMeasurement, A1ArmCommand
 from omni.isaac.quadruped.utils.a1_classes import A1Command
-from omni.isaac.quadruped.utils.a1arm_classes import A1ArmState, A1ArmMeasurement, A1ArmCommand
+# from omni.isaac.quadruped.utils.a1arm_classes import A1ArmState, A1ArmMeasurement, A1ArmCommand
 from omni.isaac.quadruped.controllers import A1QPController
 
 import omni.isaac.dynamic_control._dynamic_control as omni_dc

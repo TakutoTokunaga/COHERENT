@@ -1,0 +1,1 @@
+{"type": "fluid", "particle_contact_offset": 0.02, "particle_density": 100.0, "is_viscous": false, "material_mtl_name": "Bubble", "customize_material_kwargs": {"specular_transmission_color": [0.76, 0.97, 0.95]}}

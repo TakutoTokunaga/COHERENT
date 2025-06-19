@@ -27,7 +27,7 @@ task_name="Merom_1_int_Task1"
 # task_name='house_double_floor_lower_Task1'
 
 
-conda activate omnigibson
+# conda activate omnigibson
 
 {
 	 gnome-terminal --tab "LLM" -- python3 $BENCHMARK_ROOT/ros_hademo_ws/src/hademo/src/action_publisher.py --task_name $task_name

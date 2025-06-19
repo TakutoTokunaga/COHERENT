@@ -104,8 +104,8 @@ class HASimulationSystem:
                 og.sim.step()
         
         self.world_entity_name = self.getWorldEntityName(env.config)
-        # print(self.world_entity_name)
-        # print("+++++++++++++++++++++++++++++++++++++++++++++")
+        print(self.world_entity_name)
+        print("+++++++++++++++++++++++++++++++++++++++++++++")
         for _ in range(50):
             # step simulation
             og.sim.step()
@@ -194,7 +194,7 @@ class HASimulationSystem:
         
         state = dict()
 
-        # print('******Current World Model***********')
+        print('******Current World Model***********')
         for entity_name in self.world_entity_name:
             prim_path = '/World/' + entity_name
             xform = get_current_stage().GetPrimAtPath(prim_path)

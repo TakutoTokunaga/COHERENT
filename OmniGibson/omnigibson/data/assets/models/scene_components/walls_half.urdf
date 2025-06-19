@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<robot name="urdf_wall">
+ <link name="world"/>
+  <joint name="fixed" type="fixed">
+    <parent link="world"/>
+    <child link="baseLink"/>
+    <origin xyz="0 0 0"/>
+  </joint>
+
+  <link name="baseLink">
+    <inertial>
+      <origin rpy="1.57 0 0" xyz="0 0 0"/>
+       <mass value="0.1"/>
+       <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+    </inertial>
+    <visual>
+        <origin xyz='0 0 0' rpy='1.57 0 0'/>
+    <geometry>
+     <mesh filename="walls_half.obj"  scale="0.01 0.01 0.01" />
+    </geometry>
+    <material name="gray">
+        <color rgba="0.509 0.509 0.509 1"/>
+    </material>
+    </visual>
+    <collision>
+        <origin xyz='0 0 0' rpy='1.57 0 0'/>
+    <geometry>
+     <mesh filename="walls_half.obj"  scale="0.01 0.01 0.01" />
+    </geometry>
+    </collision>
+  </link>
+
+  <link name="wall2">
+    <inertial>
+      <origin rpy="1.57 0 0" xyz="0 0 0"/>
+       <mass value="0.1"/>
+       <inertia ixx="0.1" ixy="0" ixz="0" iyy="0.1" iyz="0" izz="0.1"/>
+    </inertial>
+    <visual>
+        <origin xyz='0 0 0' rpy='1.57 0 0'/>
+    <geometry>
+     <mesh filename="walls_half.obj"  scale="0.01 0.01 0.01" />
+    </geometry>
+    <material name="gray">
+        <color rgba="0.509 0.509 0.509 1"/>
+    </material>
+    </visual>
+    <collision>
+        <origin xyz='0 0 0' rpy='1.57 0 0'/>
+    <geometry>
+     <mesh filename="walls_half.obj"  scale="0.01 0.01 0.01" />
+    </geometry>
+    </collision>
+  </link>
+
+  <joint name="wall2_joint" type="fixed">
+    <parent link="baseLink"/>
+    <child link="wall2"/>
+    <origin xyz="0.0 0 0.05"/>
+  </joint>
+
+</robot>
+

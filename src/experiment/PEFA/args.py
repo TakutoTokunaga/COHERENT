@@ -29,9 +29,9 @@ def get_args():
                     help='path of robot_arm_prompt')
     parser.add_argument('--judge_prompt_path', default="./prompt/judge_prompt.txt",
                     help='path of judge_prompt')
-    parser.add_argument('--api_key', default='',
+    parser.add_argument('--api_key', default='sk-',
                     help='please enter your openai api_key')
-    parser.add_argument('--organization', default='', 
+    parser.add_argument('--organization', default='org-', 
                     help='please enter your openai organization')
     parser.add_argument("--t", default=0, type=float)
 

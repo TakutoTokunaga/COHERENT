@@ -1,0 +1,1 @@
+{"type": "fluid", "particle_contact_offset": 0.012, "particle_density": 610.0, "is_viscous": false, "material_mtl_name": "ClearWater", "customize_material_kwargs": {"specular_transmission_weight": 0.5, "specular_transmission_color": [0.3, 0.22, 0.11], "specular_transmission_scattering_color": [0.3, 0.22, 0.11]}}

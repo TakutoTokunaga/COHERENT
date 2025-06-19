@@ -1,0 +1,1 @@
+{"type": "fluid", "particle_contact_offset": 0.012, "particle_density": 1027.0, "is_viscous": false, "material_mtl_name": "OrangeJuice", "customize_material_kwargs": {"diffuse_reflection_color": [0.59, 0.05, 0.05], "specular_transmission_color": [0.94, 0.16, 0.16], "specular_transmission_scattering_color": [0.57, 0.04, 0.04], "enable_diffuse_transmission": false}}
