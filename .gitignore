@@ -27,6 +27,6 @@ docs/apidoc
 .vscode/
 
 # OmniGibson assets
-OmniGibson/Benchmark/assets
+OmniGibson/Benchmark/assets/
 OmniGibson/omnigibson/data/og_assets.tar.gz
 Miniconda3-latest-Linux-x86_64.sh
